@@ -29,7 +29,7 @@ namespace ProjectPenjualan
                         TampilPenjualan();
                         break;
 
-                    case 3: // keluar dari program
+                    case 3:
                         return;
 
                     default:
@@ -56,7 +56,7 @@ namespace ProjectPenjualan
             Penjualan jual = new Penjualan();
             Console.WriteLine();
             Console.Write("Nota : ");
-            jual.Nota = Console.ReadLine());
+            jual.Nota = Console.ReadLine();
             Console.Write("Tanggal : ");
             jual.Tanggal = Console.ReadLine();
             Console.Write("Customer : ");
